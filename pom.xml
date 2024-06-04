@@ -15,7 +15,7 @@
     <maven.compiler.source>11</maven.compiler.source>
     <maven.compiler.target>11</maven.compiler.target>
   </properties>
-
+ 
   <dependencies>
     <dependency>
       <groupId>junit</groupId>
@@ -30,7 +30,7 @@
         <name>vigneshb-art-snapshots</name>
         <url>http://support-team-vigneshb-art.jfrog.farm:8081/artifactory/sample-repo-libs-snapshot</url>
     </snapshotRepository>
-</distributionManagement>
+  </distributionManagement>
   <build>
     <pluginManagement><!-- lock down plugins versions to avoid using Maven defaults (may be moved to parent pom) -->
       <plugins>
